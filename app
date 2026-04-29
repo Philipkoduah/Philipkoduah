@@ -1,6 +1,6 @@
 from flask import Flask, render_template_string, request, redirect, url_for
 
-app = Flask(__name__)
+app = Flask(__phillo__)
 
 # In-memory financial records (for demo purposes)
 transactions = []
